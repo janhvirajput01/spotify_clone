@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #080808;
+    color: white;
+    
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0  12px;
+    color: white;
+    background: #080808;
+   
+}
+.logo img{
+   width: 44px;
+   padding: 0  8px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: #21252D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px;
+    
+   
+}
+
+#previous{
+    margin-right: 12px;
+}
+#next{
+    margin-left: 12px;
+}
+.icons i{
+    cursor: pointer;
+    
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.container{
+  background-color: #21252D;
+  display: flex;
+  color: black;
+  width: 70%;
+  margin: 23px auto;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url('bg.jpg');
+  background-position-x: 70%;
+  background-position-y:100%;
+ min-height: 72vh;
+font-family: 'Varela Round', sans-serif;
+}
+.song-list-container{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.song-item{
+    margin-top: 12px;
+    color:black ;
+    background-color: white;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+   border-radius: 32px;
+}
+.song-item img{
+    width: 43px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    
+}
+.song-name{
+    font-size: 20px;
+
+}
+.time-stamp{
+    margin: 0 23px;
+    font-size: 20px;
+   
+}
+
+.time-stamp i{
+    margin-left: 12px;
+    cursor: pointer;
+   color: #1ED760;
+}
+
+.song-list-container h1 span{
+    color: #1ED760;
+    font-size: 40px;
+}
+
+.songInfo{
+   left: 10vw;
+   position: absolute;
+   
+}
+
+.songInfo img{
+    opacity: 0;
+    transition:opacity 0.4s ease-in;
+   
+}
